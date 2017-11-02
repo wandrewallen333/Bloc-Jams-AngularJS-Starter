@@ -40,12 +40,13 @@
        var array = [];
        for (var i=0; i < numberOfAlbums; i++) {
          array.push(albumAliveAndWell);
-         return array;
+
        };
+       return array;
      };
 
     return Fixtures;
-  }
+  };
 
   angular
     .module('blocJams')
