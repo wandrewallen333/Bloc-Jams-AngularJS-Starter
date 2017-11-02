@@ -36,6 +36,14 @@
        return albumAliveAndWell;
      };
 
+     Fixtures.getCollection = function(numberOfAlbums) {
+       var array = [];
+       for (var i=0; i < numberOfAlbums; i++) {
+         array.push(albumAliveAndWell);
+         return array;
+       };
+     };
+
     return Fixtures;
   }
 
