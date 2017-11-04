@@ -9,7 +9,7 @@
       year: '2017',
       albumArtUrl: '/assets/images/album_covers/AliveAndWell.jpg',
       songs: [
-        { title: 'Alive and Well', duration: '249.6', audioUrl: '/assets/music/Alive And Well' },
+        { title: 'Alive and Well', duration: '249.6', audioUrl: '/assets/music/AliveAndWell' },
         { title: 'Jive', duration: '244.8', audioUrl: '/assets/music/Jive' },
         { title: 'Lost Chords', duration: '244.8', audioUrl: '/assets/music/Lost Chords' },
         { title: 'Sick Fam', duration: '307.2', audioUrl: '/assets/music/Sick Fam' },
@@ -40,7 +40,6 @@
        var array = [];
        for (var i=0; i < numberOfAlbums; i++) {
          array.push(albumAliveAndWell);
-
        };
        return array;
      };
