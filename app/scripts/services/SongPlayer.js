@@ -29,6 +29,11 @@
         preload: true
     });
 
+    /**
+     * @function bind
+     * @desc binds time to song playing
+     * @param {Object} song
+     */
     currentBuzzObject.bind('timeupdate', function() {
       $rootScope.$apply(function() {
         SongPlayer.currentTime = currentBuzzObject.getTime();
@@ -86,8 +91,11 @@
     */
     SongPlayer.volume = null;
 
-
-
+    /**
+     * @function play
+     * @desc play current song
+     * @param {Object} song
+     */
     SongPlayer.play = function(song) {
       song = song || SongPlayer.currentSong;
       if (SongPlayer.currentSong !== song) {
@@ -157,11 +165,22 @@
         }
     };
 
+    /**
+     * @function setVolume
+     * @desc sets volume
+     * @param {Object} volume
+     */
     SongPlayer.setVolume = function(volume) {
       if (currentBuzzObject) {
         currentBuzzObject.setVolume(volume);
       }
     };
+    //Start of Extra Credit Mute
+    //SongPlayer.mute = function(volume) {
+      //if (currentBuzzObject) {
+        //currentBuzzObject.mute(volume);
+      //}
+    //};
 
     return SongPlayer;
   }
