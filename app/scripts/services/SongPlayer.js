@@ -24,6 +24,9 @@
         stopSong(song);
       }
 
+
+
+
       currentBuzzObject = new buzz.sound(song.audioUrl, {
         formats: ['mp3'],
         preload: true
@@ -84,6 +87,8 @@
     * @type {Number}
     */
     SongPlayer.currentTime = null;
+
+    //SongPlayer.muted = false;
 
     /**
     * @desc Current volume of playing song
@@ -175,10 +180,20 @@
         currentBuzzObject.setVolume(volume);
       }
     };
+
+    //SongPlayer.playNextSong = function(song) {
+      //if (SongPlayer.currentSong.duration >= SongPlayer.currentSong.duration) {
+        //SongPlayer.currentSong = songPlayer.currentSongIndex + 1;
+      //}
+    //};
     //Start of Extra Credit Mute
-    //SongPlayer.mute = function(volume) {
+    //SongPlayer.mute = function() {
       //if (currentBuzzObject) {
-        //currentBuzzObject.mute(volume);
+      // if (currentBuzzObjec.isMuted()) {
+      //  currentBuzzObject.unMute();
+      //    SongPlayer.muted = false;
+    //}
+        //currentBuzzObject.mute();
       //}
     //};
 
