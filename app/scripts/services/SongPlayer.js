@@ -64,7 +64,7 @@
       SongPlayer.currentSong.playing = null;
     }
 
-  /**
+    /**
     * @function getSongIndex
     * @desc Gets index of song currently playing
     * @param {Object} song
