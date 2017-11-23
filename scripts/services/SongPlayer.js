@@ -43,6 +43,10 @@
       });
     });
 
+    currentBuzzObject.bind('ended', function() {
+      SongPlayer.next();
+    });
+
 
     SongPlayer.currentSong = song;
  };
@@ -94,7 +98,7 @@
     * @desc Current volume of playing song
     * @type {Number}
     */
-    SongPlayer.volume = null;
+    SongPlayer.volume = 80;
 
     /**
      * @function play
@@ -181,17 +185,19 @@
       }
     };
 
-    //SongPlayer.playNextSong = function(song) {
-      //if (SongPlayer.currentSong.duration >= SongPlayer.currentSong.duration) {
-        //SongPlayer.currentSong = songPlayer.currentSongIndex + 1;
-      //}
-    //};
+    SongPlayer.playNextSong = function(song) {
+      if (SongPlayer.currentSong.duration > SongPlayer.currentSong.duration) {
+        SongPlayer.currentSong = songPlayer.currentSongIndex + 1;
+        playSong(song);
+
+      }
+    };
     //Start of Extra Credit Mute
-    //SongPlayer.mute = function() {
+  //  SongPlayer.mute = function() {
       //if (currentBuzzObject) {
-      // if (currentBuzzObjec.isMuted()) {
-      //  currentBuzzObject.unMute();
-      //    SongPlayer.muted = false;
+        //if (currentBuzzObjec.isMuted()) {
+          //currentBuzzObject.unMute();
+          //SongPlayer.muted = false;
     //}
         //currentBuzzObject.mute();
       //}
