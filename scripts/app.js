@@ -10,7 +10,7 @@
         .state('landing', {
           url: '/',
           controller: 'LandingCtrl as landing',
-          templateUrl: '/templates/landing.html'
+          templateUrl: 'app/templates/landing.html'
         })
         .state('album', {
           url: '/album',
