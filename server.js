@@ -13,7 +13,7 @@ let routes = [
         path: '/scripts/{path*}',
         handler: {
             directory: {
-                path: Path.join(__dirname, '/app/scripts')
+                path: Path.join(__dirname, '/scripts')
               }
         }
     },
@@ -22,7 +22,7 @@ let routes = [
         path: '/styles/{path*}',
         handler: {
             directory: {
-                path: Path.join(__dirname, '/app/styles')
+                path: Path.join(__dirname, '/styles')
               }
         }
     },
@@ -31,7 +31,7 @@ let routes = [
         path: '/assets/{path*}',
         handler: {
             directory: {
-                path: Path.join(__dirname, '/app/assets')
+                path: Path.join(__dirname, '/assets')
               }
         }
     },
@@ -40,7 +40,7 @@ let routes = [
         path: '/templates/{path*}',
         handler: {
             directory: {
-                path: Path.join(__dirname, '/app/templates')
+                path: Path.join(__dirname, '/templates')
               }
         }
     },
