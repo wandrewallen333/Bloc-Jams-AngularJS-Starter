@@ -1,7 +1,7 @@
 # **Break Jams**
 
 
-**Break Jams** is a streaming music player with media queries to determine the viewer's display dimensions and a responsive, grid-based user interface to provide an optimized look for various viewing device display sizes.
+**Break Jams** is a streaming music player for the band Break Night with media queries to determine the viewer's display dimensions and a responsive, grid-based user interface to provide an optimized look for various viewing device display sizes.
 
   * The home page features a logo I designed using Photoshop.  
 
