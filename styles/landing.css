@@ -5,7 +5,7 @@ body.landing {
 .hero-content {
     position: relative;
     min-height: 600px;
-    background-image: url(../assets/images/bloc_jams_bg.jpg);
+    background-image: url(../assets/images/logo.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -45,9 +45,9 @@ body.landing {
     font-size: 1.25rem;
 }
 
-.ion-music-note,
+/*.ion-music-note,
 .ion-radio-waves,
 .ion-iphone {
     color: rgb(233,50,117);
     font-size: 5rem;
-}
+}*/
