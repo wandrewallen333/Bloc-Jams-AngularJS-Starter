@@ -3,13 +3,21 @@ body.landing {
 }
 
 .hero-content {
-    position: relative;
+  max-width:100%;
+  max-height:100%;
+
     min-height: 600px;
     background-image: url(../assets/images/logo.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
 }
+
+.hero-content .background-image {
+  position: fixed;
+}
+
+
 
 .hero-content .hero-title {
     position: absolute;
@@ -44,6 +52,7 @@ body.landing {
 .point .point-title {
     font-size: 1.25rem;
 }
+
 
 /*.ion-music-note,
 .ion-radio-waves,

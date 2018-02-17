@@ -1,0 +1,18 @@
+# pack-refs with: peeled fully-peeled sorted 
+705af48c5382c1a8151d6cc90bbf7404d8433fe1 refs/heads/assignment-10-directives-part2
+01339de8000642367bd21538bc4a6e44e8e016a4 refs/heads/assignment-5-controllers
+5309b6b232397871ccd4bed47882fc5da74ea098 refs/heads/assignment-6-services-part1
+cb4366fe38f1c37946073f6ad3ff297a3809b1ae refs/heads/assignment-7-services-part2
+295a7f1ff694f26984c1b0f0ae240467c37ec562 refs/heads/assignment-8-services-part3
+75b4f799032b649b1f5b6b8786e78e7a446a9dc8 refs/heads/assignment-9-directives-part1
+335c168c0d6a8f1552bdbd588a841bf676b73634 refs/heads/checkpoint-10-directives-part2
+eaaeab2ae112df3db5e68bae3969d181c29d174e refs/heads/checkpoint-11-filters
+04f569288865ef08fae079aae4b5ddc6d7bae3fc refs/heads/checkpoint-2-configuration
+3e3ef7303d38e3e1526c34edbb22d6275ebb6350 refs/heads/checkpoint-3-routing
+d9fc703621b321f88e0a832e47b01fa1a112fb5e refs/heads/checkpoint-4-templates
+f0919a666cedb9e3b8fedb022ef3dad79e8b55e4 refs/heads/checkpoint-5-controllers
+8addb2ac08f64ed806a87e71119d1bf177a18779 refs/heads/checkpoint-6-services-part1
+f68cbec3dd1b2eb85a116c01b98e2b6f191489a3 refs/heads/checkpoint-7-services-part2
+dd859d97383467ed77c68b5dc0225c7a20afa769 refs/heads/checkpoint-8-services-part3
+04aa28d934634a982c4c0ab061ed521d1d6639be refs/heads/checkpoint-9-directives-part1
+f86337e712e1ede5b7f89fa250d242f0891f9b4b refs/heads/master
